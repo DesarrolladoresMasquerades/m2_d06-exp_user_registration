@@ -1,0 +1,28 @@
+{
+  "name": "instructor-code",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./server.js",
+    "start:dev": "nodemon ./server.js",
+    "start:teach": "PORT=3001 nodemon ./server.js",
+    "start:debug": "DEBUG=* nodemon ./server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5",
+    "connect-mongo": "^4",
+    "cookie-parser": "^1",
+    "dotenv": "^10",
+    "express": "^4",
+    "express-session": "^1",
+    "hbs": "^4",
+    "http-errors": "^1",
+    "mongoose": "^5",
+    "morgan": "^1",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "debug": "^2",
+    "nodemon": "^2"
+  }
+}
