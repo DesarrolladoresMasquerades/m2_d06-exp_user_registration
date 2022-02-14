@@ -7,7 +7,7 @@ const path = require("path");
 module.exports = (app) => {
   app.use(logger("dev"));
   app.use(express.json());
-  app.use(express.urlencoded({ ex
+  app.use(express.urlencoded({ extended: true}))
   app.set("views", path.join(__dirname, "..", "views"));
   app.set("view engine", "hbs");
   app.use(express.static(path.join(__dirname, "..", "public")));
