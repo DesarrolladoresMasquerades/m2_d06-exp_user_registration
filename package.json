@@ -9,20 +9,20 @@
     "start:debug": "DEBUG=* nodemon ./server.js"
   },
   "dependencies": {
-    "bcrypt": "^5",
-    "connect-mongo": "^4",
-    "cookie-parser": "^1",
-    "dotenv": "^10",
-    "express": "^4",
-    "express-session": "^1",
-    "hbs": "^4",
-    "http-errors": "^1",
-    "mongoose": "^5",
-    "morgan": "^1",
-    "serve-favicon": "^2.5.0"
+    "bcrypt": "^5.0",
+    "connect-mongo": "^4.6",
+    "cookie-parser": "^1.4",
+    "dotenv": "^16.0",
+    "express": "^4.17",
+    "express-session": "^1.17",
+    "hbs": "^4.2",
+    "http-errors": "^2.0",
+    "mongoose": "^6.2",
+    "morgan": "^1.10",
+    "serve-favicon": "^2.5"
   },
   "devDependencies": {
-    "debug": "^2",
-    "nodemon": "^2"
+    "debug": "^4.3",
+    "nodemon": "^2.0"
   }
 }
